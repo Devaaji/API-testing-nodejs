@@ -5,7 +5,7 @@ const app = express();
 dotenv.config();
 
 app.get('/', (req, res) => {
-    res.send('API Testing');
+    res.send('API Testing Updated');
 })
 
 
